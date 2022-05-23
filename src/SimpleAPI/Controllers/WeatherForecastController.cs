@@ -10,7 +10,7 @@ public class WeatherForecastController : ControllerBase
     [HttpGet]
     public double Get()
     {
-        return 30.5;
+        return 31.5;
     }
     
     [HttpGet("{id}")]
