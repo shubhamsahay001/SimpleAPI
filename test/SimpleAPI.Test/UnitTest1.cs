@@ -16,7 +16,7 @@ public class UnitTest1
     [Fact]
        public void GetReturnsDataWithParam()
     {
-        var returnValue = controller.Get("Bangalore");
-        Assert.Equal("25.5 Bangalore", returnValue);
+        var returnValue = controller.Get("Kolkata");
+        Assert.Equal("25.5 Kolkata", returnValue);
     }
 }
