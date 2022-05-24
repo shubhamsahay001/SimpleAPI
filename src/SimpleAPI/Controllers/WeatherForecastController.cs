@@ -8,9 +8,9 @@ public class WeatherForecastController : ControllerBase
 {
 
     [HttpGet]
-    public double Get()
+    public string Get()
     {
-        return 30.5;
+        return "<h1>Welcome to the STM Demo - Group 6</h1>";
     }
     
     [HttpGet("{id}")]
