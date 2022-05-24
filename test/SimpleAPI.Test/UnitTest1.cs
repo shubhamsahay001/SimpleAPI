@@ -11,13 +11,13 @@ public class UnitTest1
     {
         var returnValue = controller.Get();
         
-        Assert.Equal("<h1>Welcome to the STM Demo - Group 6</h1>", returnValue);
+        Assert.Equal("Welcome to the STM Demo - Group 6", returnValue);
     }
 
     [Fact]
        public void GetReturnsDataWithParam()
     {
-        var returnValue = controller.Get("Kolkata");
-        Assert.Equal("25.5 Kolkata", returnValue);
+        var returnValue = controller.Get("Ranchi");
+        Assert.Equal("The average temparature in Ranchi will be 30.5 degree celsius in this week", returnValue);
     }
 }
