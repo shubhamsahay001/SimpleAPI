@@ -22,6 +22,6 @@ public class WeatherForecastController : ControllerBase
     [HttpPost(Name = "PostWeatherForecast")]
     public string Post()
     {
-        return "Hello";
+        return "Hello World";
     }
 }
