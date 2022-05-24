@@ -11,7 +11,7 @@ public class UnitTest1
     {
         var returnValue = controller.Get();
         
-        Assert.Equal(30.5, returnValue);
+        Assert.Equal(31.5, returnValue);
     }
 
     [Fact]
