@@ -25,9 +25,5 @@ public class WeatherForecastController : ControllerBase
         return "Sorry we don't have the weather forecast data of "+id+" in our servers yet.";
     }
 
-    [HttpPost(Name = "PostWeatherForecast")]
-    public string Post()
-    {
-        return "Hello World";
-    }
+   
 }
