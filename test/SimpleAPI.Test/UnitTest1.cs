@@ -11,7 +11,7 @@ public class UnitTest1
     {
         var returnValue = controller.Get();
         
-        Assert.Equal("Welcome to the STM Demo - Group 6", returnValue);
+        Assert.Equal("Welcome to the STM Demo - Group 6 is here with the demo", returnValue);
     }
 
     [Fact]
