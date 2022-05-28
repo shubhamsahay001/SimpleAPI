@@ -17,10 +17,10 @@ public class WeatherForecastController : ControllerBase
     public string Get(string id)
     {
         if(id=="Ranchi")
-        return "The average temparature in "+id+ " will be "+"30.5 degree celsius in this week";
+        return "The average temparature in "+id+ " will be "+"30.5 degree celsius in next week";
         else
         if(id=="Bangalore" || id=="Bengaluru")
-        return "The average temparature in "+id+ " will be "+"25.5 degree celsius in this week";
+        return "The average temparature in "+id+ " will be "+"25.5 degree celsius in next week";
 
         return "Sorry we don't have the weather forecast data of "+id+" in our servers yet.";
     }
