@@ -10,7 +10,7 @@ public class WeatherForecastController : ControllerBase
     [HttpGet]
     public string Get()
     {
-        return "Good evening Welcome to the STM Demo - Group 6 is here with the demo";
+        return "evening Welcome to the STM Demo - Group 6 is here with the demo";
     }
     
     [HttpGet("{id}")]
